@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+   margin: auto;
+ }
+.header-area{
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+.main-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+  }
+
+  .main-nav.show {
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+#hamburger-toggle{
+padding: 4px 12px;
+border: 0.5px solid gray;
+font-size: 24px;
+border-radius: 5px;
+color: rgba(0,0,0,0.55);
+cursor: pointer;
+}
+.hero-top-area h1 {
+    font-size: 2.25rem;
+    color: white;
+    margin-bottom: 8px;
+}
+#services .container h2 {
+   font-size: 30px;
+   font-weight: 500;
+  }
+#services .container .row {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .single-service-item {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem !important;
+    padding: 0 20px;
+  }
+  .single-img-box {
+    position: relative;
+    width: 50%;
+}
+.bootstrap-download-area .container .download-text{
+    font-size: calc(1.325rem + 0.9vw);
+}
+.form-area {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-text-area {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+
+    p{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
